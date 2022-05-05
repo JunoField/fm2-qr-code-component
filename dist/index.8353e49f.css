@@ -1,0 +1,44 @@
+body {
+  background-color: #d6e2f0;
+}
+
+#centre-card {
+  height: 70%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 25px;
+  margin: auto 20px;
+  font-family: Outfit, sans-serif;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#centre-card h1 {
+  color: #1f3251;
+  margin: 10px 30px auto;
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+#centre-card p {
+  color: #1f3251;
+  margin: 10px 30px auto;
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+#qr-code {
+  max-width: 90%;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+.attribution {
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=index.8353e49f.css.map */
