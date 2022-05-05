@@ -13,9 +13,9 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    min-width: 320px;
+    width: 320px;
     background-color: $white;
-    height: 495px;
+    min-height: 495px;
     border-radius: 25px;
     text-align: center;
     font-family: "Outfit", sans-serif;
@@ -34,14 +34,13 @@ body{
     }
 }
 
+
+
 #qr-code{
     max-width: 90%;
     margin: 15px;
     border-radius: 15px;
 }
-
-
-
 
 .attribution{
     position: absolute;

@@ -4,8 +4,8 @@ body {
 }
 
 #centre-card {
-  min-width: 320px;
-  height: 495px;
+  width: 320px;
+  min-height: 495px;
   text-align: center;
   background-color: #fff;
   border-radius: 25px;
