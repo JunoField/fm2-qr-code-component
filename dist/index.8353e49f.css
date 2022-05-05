@@ -1,17 +1,19 @@
 body {
   background-color: #d6e2f0;
+  align-content: center;
 }
 
 #centre-card {
-  height: 70%;
+  min-width: 320px;
+  height: 495px;
   text-align: center;
   background-color: #fff;
   border-radius: 25px;
-  margin: auto 20px;
   font-family: Outfit, sans-serif;
   position: absolute;
   top: 50%;
-  transform: translate(0, -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #centre-card h1 {
@@ -22,20 +24,21 @@ body {
 }
 
 #centre-card p {
-  color: #1f3251;
-  margin: 10px 30px auto;
-  font-size: 10pt;
-  font-weight: 700;
+  color: #7b879d;
+  margin: 15px 30px auto;
+  font-size: 12pt;
+  font-weight: 400;
 }
 
 #qr-code {
   max-width: 90%;
-  border-radius: 20px;
+  border-radius: 15px;
   margin: 15px;
 }
 
 .attribution {
-  font-size: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 8px;
   position: absolute;
   bottom: 0;
   right: 0;
