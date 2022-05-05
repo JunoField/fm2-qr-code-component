@@ -1,8 +1,7 @@
 {
   "name": "qr-code-component-main",
   "version": "1.0.0",
-  "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
+  "description": "![My attempt at the Frontend Mentor coding challenge.](./design/desktop-preview.jpg)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,16 +9,23 @@
     "type": "git",
     "url": "git+https://github.com/JunoField/qr-code-component-main.git"
   },
-  "author": "",
+  "author": "Juno Field",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JunoField/qr-code-component-main/issues"
   },
   "homepage": "https://github.com/JunoField/qr-code-component-main#readme",
   "dependencies": {
-    "parcel": "^2.5.0"
+    "parcel": "^2.5.0",
+    "shx": "^0.3.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0"
+  },
+
+  "scripts": {
+    "start": "parcel index.html",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build index.html --public-url https://junofield.github.io/fm2-qr-code-component"
   }
 }
