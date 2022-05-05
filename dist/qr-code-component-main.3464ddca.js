@@ -527,6 +527,6 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"j4kuM":[function(require,module,exports) {
 
-},{}]},["jNXnl","j4kuM"], "j4kuM", "parcelRequired088")
+},{}]},["jNXnl","j4kuM"], "j4kuM", "parcelRequire749f")
 
 //# sourceMappingURL=qr-code-component-main.3464ddca.js.map
